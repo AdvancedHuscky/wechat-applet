@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/demo06_list/demo06",
+    "pages/demo04_request/demo04",
+    "pages/demo03_tpl/demo03",
+    "pages/demo02_lianxi/demo02",
+    "pages/demo01_basic/demo01",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo05_navigate/demo05",
+    "pages/demo05_navigate/demo05_detail",
+    "pages/demo07_detail/demo07"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,12 @@
+<!--pages/demo01_basic/demo01.wxml-->
+<text>Hello mini program</text>
+<text>{{num}}</text>
+
+<text wx:for="{{list}}">{{item}}</text>
+
+<text wx:if="{{isMember}}">this is an ad</text>
+
+<text wx:if="{{answer=='a'}}">A</text>
+<text wx:elif="{{answer=='b'}}">B</text>
+<text wx:elif="{{answer=='c'}}">C</text>
+<text wx:else="{{answer=='d'}}">D</text>

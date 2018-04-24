@@ -1,0 +1,6 @@
+<!--创建模板指定的方式  假设数据传过来list-->
+<template name="myList">
+  <text wx:for="{{list}}">
+    {{item}}
+  </text>
+</template>

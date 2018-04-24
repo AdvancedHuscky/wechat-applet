@@ -1,0 +1,4 @@
+<button bindtap="loadData">load more</button>
+<text>{{count}}</text>
+<button bindtap="Increment">Increment</button>
+<text wx:for="{{userList}}">{{item.name}}</text>

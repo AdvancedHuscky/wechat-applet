@@ -1,0 +1,6 @@
+<import src="../../utils/list.wxml"/>
+
+<text>this is header</text>
+<template is="myList" data="{{list}}">
+</template>
+<text>this id footer</text>
