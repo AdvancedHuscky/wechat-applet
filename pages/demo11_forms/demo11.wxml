@@ -1,0 +1,18 @@
+<!-- normal picker -->
+<picker range="{{list}}" bindchange='chooseNum'>
+  <view>please select</view>
+</picker>
+
+<picker start="03:00" end="08:00" mode="time" bindchange="chooseTime">
+  <view>
+    {{"当前的时间是"+time}}
+  </view>
+</picker>
+
+<picker mode="region">
+<view>
+{{"当前选择的城市"}}
+</view>
+</picker>
+
+<slider step='5' min='0' max='100' show-value='true' bindchange="handleChange"></slider>
