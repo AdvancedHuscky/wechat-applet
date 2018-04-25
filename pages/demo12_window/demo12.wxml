@@ -1,0 +1,9 @@
+<button bindtap="showMyToast">
+显示通知
+</button>
+<button bindtap="showMyLoading">
+显示加载中
+</button>
+<button bindtap="showMyActionSheet">
+显示交互表
+</button>
