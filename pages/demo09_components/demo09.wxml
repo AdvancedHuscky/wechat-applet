@@ -1,2 +1,5 @@
-<!--pages/demo09_components/demo09.wxml-->
-<text>pages/demo09_components/demo09.wxml</text>
+<swiper>
+  <swiper-item wx:for="{{imgList}}" style='width:100%;display:flex;justify-content:center'>
+    <image src="{{'../../images/'+item}}"/>
+  </swiper-item>
+</swiper>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/demo09_components/demo09",
     "pages/demo08_flexbox/demo08",
     "pages/demo06_list/demo06",
     "pages/demo04_request/demo04",
@@ -10,8 +11,7 @@
     "pages/logs/logs",
     "pages/demo05_navigate/demo05",
     "pages/demo05_navigate/demo05_detail",
-    "pages/demo07_detail/demo07",
-    "pages/demo09_components/demo09"
+    "pages/demo07_detail/demo07"
   ],
   "window": {
     "backgroundTextStyle": "light",
