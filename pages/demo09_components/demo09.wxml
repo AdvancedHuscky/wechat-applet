@@ -3,3 +3,15 @@
     <image src="{{'../../images/'+item}}"/>
   </swiper-item>
 </swiper>
+
+<scroll-view style="height:100px;width:200px;border:1px solid green" scroll-into-view="id2" scroll-x="true" scroll-y="true">
+  <view id="id1" style='width:100px;height:80px;background:powderblue'>1</view>
+  <view id="id2" style='width:100px;height:80px;background:yellow'>2</view>
+  <view id="id3" style='width:100px;height:80px;background:green'>3</view>
+</scroll-view>
+
+<progress show-info='true' percent='{{nowPercent}}' color='powderblue'></progress>
+<button bindtap='startDownload'>start download</button>
+
+
+<button open-type='getUserInfo' bindgetuserinfo='getInfo'>aquire user info</button>

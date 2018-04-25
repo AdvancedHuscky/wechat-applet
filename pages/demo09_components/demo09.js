@@ -11,7 +11,9 @@ Page({
       "3.jpg",
       "4.jpg",
       "5.jpg",
-    ]
+    ],
+    nowPercent:0,
+    timer:null
   },
 
   /**
@@ -68,5 +70,26 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  // control progress change
+  startDownload: function(){
+    let tmpTimer = setInterval(()=>{
+      let percent = this.data.nowPercent;
+      percent+=10;
+      console.log(percent);
+      if(percent>100){
+        clearInterval(this.data.timer)
+      };
+      this.setData({
+        nowPercent:percent
+      })
+    },100);
+    this.setData({
+      timer:tmpTimer
+    })
+  },
+  getInfo:function(result){
+    //将getInfo方法，绑定给bindgetuserinfo
+    console.log(result);
   }
 })
