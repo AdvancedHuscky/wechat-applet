@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/demo12_window/demo12",
+    
     "pages/demo11_forms/demo11",
+    "pages/demo12_window/demo12",
     "pages/demo10_forms/demo10",
     "pages/demo09_components/demo09",
     "pages/demo08_flexbox/demo08",
@@ -21,5 +22,22 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":"pages/demo11_forms/demo11",
+        "text":"demo11",
+        "iconPath":"./images/5.jpg"
+      },
+      {
+        "pagePath": "pages/demo10_forms/demo10",
+        "text": "demo10"
+      },
+      {
+        "pagePath": "pages/demo09_components/demo09",
+        "text": "demo09"
+      }
+    ]
   }
 }
