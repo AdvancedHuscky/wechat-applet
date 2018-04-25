@@ -1,0 +1,19 @@
+<!-- checkbox -->
+<checkbox-group bindchange="chooseCity">
+  <checkbox value="bj">BeiJing</checkbox>
+  <checkbox value="sh">ShangHai</checkbox>
+  <checkbox value="gz">GuangZhou</checkbox>
+</checkbox-group>
+
+<!-- radio -->
+<radio-group bindchange="chooseSex">
+  <radio value="1">boy</radio>
+  <radio value="0">girl</radio>
+</radio-group>
+
+<!-- switch -->
+<switch bindchange='changeBT'></switch>
+
+<!-- input -->
+<view></view>
+<label for="uname">username</label><input id='uname' type='text' placeholder='please input your name' bindinput="changeUname"></input>
