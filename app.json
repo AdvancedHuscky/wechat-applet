@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/demo11_forms/demo11",
     "pages/demo10_forms/demo10",
     "pages/demo09_components/demo09",
     "pages/demo08_flexbox/demo08",
