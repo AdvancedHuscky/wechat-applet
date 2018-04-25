@@ -72,12 +72,10 @@ Page({
   
   },
   jumptoEmail:function(e){
-    console.log(this.data.userList);
-    console.log(e.currentTarget);
-    console.log(e.currentTarget.id);
-    let jsonText = JSON.stringify(this.data.userList[e.currentTarget.id]);
+    console.log(e.target.dataset.uname);
+    let uname = e.target.dataset.uname
     wx.navigateTo({
-      url: '../demo07_detail/demo07?email='+jsonText,
+      url: '../demo07_detail/demo07?uname='+uname,
     })
   }
 })
